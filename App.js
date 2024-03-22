@@ -14,7 +14,7 @@ export default function App() {
   };
 
   const changeTxt = (txt) => {
-    setName(`Olá ${txt}, Bom Dia. Tudo Bem?`);
+    setName(`Seja Bem Vindo, ${txt}`);
   };
 
   useEffect(() => {
